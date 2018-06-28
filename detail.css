@@ -1,8 +1,24 @@
-img {
+.img {
     height: 60px;
     width: 60px;
     margin-right: 50px;
 }
 .navbar-dark .navbar-nav .nav-link {
-    color: rgb(102, 28, 153);
+    color: rgb(179, 113, 218);
+}
+
+.img-size {
+    width: 50%;
+    float: left;
+}
+body {
+    background: url("https://images.pexels.com/photos/1040473/pexels-photo-1040473.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+.ps4box {
+    margin-top: 25px;
+}
+.ps4move {
+    margin-right: 500px;
 }
