@@ -1,6 +1,41 @@
 .parallax{
-    background: url("https://img.freepik.com/free-vector/abstract-lines-forming-tunner-shape-background_1017-12765.jpg?size=338&ext=jpg");
-    height: 1000px;
+    background: url("https://images.pexels.com/photos/1040473/pexels-photo-1040473.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    height: auto;
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
+}
+
+.logo{
+      height: 50px;
+      width: 50px;
+      margin-right: 50px;
+  }
+  .navbar-dark .navbar-nav .nav-link {
+      color: rgb(179, 113, 218);
+
+  }
+ .pictures{
+      height: 100px;
+      width: 100px;
+  }
+  .about-text{
+      color: rgb(179, 113, 218);
+  }
+  .right{
+   color: rgb(179, 113, 218);
+  }
+  .line{
+      display: inline-block;
+  }
+  .media{
+      border:solid black 1px;
+      background: black;
+  }
+  .about{
+     margin-left: 200px;
+  }
+
+/* .img-fluid {
+    height: 60px;
+} */
