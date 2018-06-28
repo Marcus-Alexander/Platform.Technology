@@ -1,0 +1,6 @@
+.parallax{
+    background: url("https://img.freepik.com/free-vector/abstract-lines-forming-tunner-shape-background_1017-12765.jpg?size=338&ext=jpg");
+    height: 1000px;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
