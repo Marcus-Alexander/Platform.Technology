@@ -31,7 +31,7 @@
                     <a class="nav-link" href="#">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Product details</a>
+                    <a class="nav-link" href="detail.html">Product details</a>
                 </li>
                 <li class="nav-item mr-5">
                     <a class="nav-link" href="#">Add to Cart</a>
@@ -44,14 +44,39 @@
     <div class="container ps4box">
         <div class="row">
             <div class="col">
-                <div class="card text-center">
+                <div class="card text-center black">
                     <div class="card-header">
                         One Of Our Amazing Products!
                     </div>
                     <div class="card-body">
-                        <h5 class="card-title ps4move">PS4</h5>
-                        <img class="img-size" src="https://static1.therichestimages.com/wordpress/wp-content/uploads/2016/02/nbcnews.com_.jpg">
-                        <p class="card-text">We have some of the most expensive looking Consoles for the regular prices of $400. You can stand out from all yours other friends, if you have any but still get yours today by clicking the BUY NOW button</p>
+                        <h5 class="card-title">Take a look</h5>
+                        <div class="row justify-content-center">
+                            <div class="col-lg-6 col-md-8 col-sm-12">
+                                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img class="d-block w-100" src="https://cf4.s3.souqcdn.com/item/2016/09/04/11/50/47/21/item_XL_11504721_16282242.jpg">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="https://images-na.ssl-images-amazon.com/images/I/412ERWP0noL._SX425_.jpg">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="http://www.wiinoob.com/wp-content/uploads/2009/05/gold-wii.jpg" alt="Third slide">
+                                        </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
+                        <p class="card-text">We have some of the most expensive looking Consoles for the regular prices of $200-$400. You can stand out from all yours other friends, if you have any but still get yours today by clicking the BUY NOW button</p>
                         <a href="#" class="btn btn-primary">BUY NOW</a>
                     </div>
                 </div>
@@ -63,33 +88,55 @@
             <div class="col">
                 <div class="card" style="width: 18rem;">
                     <div class="card-body">
-                        <h5 class="card-title">Console colors</h5>
+                        <h5 class="card-title">Console/PC colors</h5>
                         <h6 class="card-subtitle mb-2 text-muted"></h6>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="card-link">Card link</a>
-                        <a href="#" class="card-link">Another link</a>
+                        <p class="card-text"></p>
+                        <select class="custom-select">
+                          <option selected>Pick Your Color</option>
+                          <option value="1">Blue</option>
+                          <option value="2">Red</option>
+                          <option value="3">Yellow</option>
+                          <option value="3">Green</option>
+                          <option value="3">Grey</option>
+                          <option value="3">Purple</option>
+                          <option value="3">Black</option>
+                          <option value="3">Gold</option>
+                          <option value="3">Silver</option>
+                        </select>
                     </div>
                 </div>
             </div>
             <div class="col">
                 <div class="card" style="width: 18rem;">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="card-link">Card link</a>
-                        <a href="#" class="card-link">Another link</a>
+                    <div class="card-body gamecard">
+                        <h5 class="card-title">Games</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Pick one of these games and get it free with any console purchase </h6>
+                        <ul>
+                            <li>Fortnite</li>
+                            <li>OverWatch</li>
+                            <li>PUBG</li>
+                            <li>Rainbow6</li>
+                            <li>StarCraft</li>
+                            <li>CounterStrike</li>
+                        </ul>
                     </div>
                 </div>
             </div>
             <div class="col">
                 <div class="card" style="width: 18rem;">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="card-link">Card link</a>
-                        <a href="#" class="card-link">Another link</a>
+                    <div class="card-body black">
+                        <h5 class="card-title">Console Type</h5>
+                        <select class="custom-select">
+                          <option selected>Pick Your Console</option>
+                          <option value="1">PS4</option>
+                          <option value="2">XBOX1</option>
+                          <option value="3">PS4 Pro</option>
+                          <option value="3">XBOX1X</option>
+                          <option value="3">Nintendo Switch</option>
+                          <option value="3">Wii U</option>
+                        </select>
+                        <p class="card-text">Click on the link at the bottom if you want a custom pc build</p>
+                        <a href="#" class="card-link">PC Build</a>
                     </div>
                 </div>
             </div>
