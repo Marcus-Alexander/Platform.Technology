@@ -1,2 +1,0 @@
-# Platform.Technology
-eCommerce project
